@@ -4,7 +4,7 @@
 		module="movies_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20170131073223"
+		publication="20170201063445"
 	>
 		<description>
 		movies
@@ -36,6 +36,8 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="1.6.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-hive_2.11" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="1.6.0" conf="compile->default(compile)"/>
 		<dependency org="com.databricks" name="spark-csv_2.11" rev="1.5.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

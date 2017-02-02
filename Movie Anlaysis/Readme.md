@@ -3,8 +3,8 @@
 
 Requirements
 
--Scala 2.10.0 or higher version
--Apache Spark 1.6.0 or higher version
+*Scala 2.10.0 or higher version
+*Apache Spark 1.6.0 or higher version
 
 
 recommendation = args(0)
